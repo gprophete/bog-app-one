@@ -4,8 +4,10 @@ import axios from 'axios'
 export default class SingleCreature extends Component {
 
     state = {
-        name: '',
-        description: '',
+
+            name: '',
+            description: '',
+
     }
 
     componentDidMount() {
@@ -25,8 +27,8 @@ export default class SingleCreature extends Component {
             <div>
                 <h1>Single Creature</h1>
                 <div>Name: {this.state.name}</div>
-                <div>Description:{this.state.description}</div>
-
+        <div>Description:{this.state.description}</div>
+               
             </div>
         )
     }
